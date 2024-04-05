@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "406416294037",
+    "project_id": "smartgalleryproject",
+    "storage_bucket": "smartgalleryproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:406416294037:android:0ae50e90b22efb05221b9c",
+        "android_client_info": {
+          "package_name": "com.example.smartgalleryproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIV2CNe0WL5dw-NHBAzcpx7IkCDUX-xSI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

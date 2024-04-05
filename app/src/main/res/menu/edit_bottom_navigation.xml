@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/cropButton"
+        android:title="Crop"
+        android:icon="@drawable/baseline_crop_24" />
+
+    <item
+        android:id="@+id/filterButton"
+        android:title="Filter"
+        android:icon="@drawable/baseline_filter_24" />
+
+    <item
+        android:id="@+id/textButton"
+        android:title="Add Text"
+        android:icon="@drawable/baseline_text_fields_24" />
+</menu>

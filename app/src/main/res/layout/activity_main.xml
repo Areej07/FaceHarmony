@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Register Here"
+        android:textStyle="bold"
+        android:textColor="#5868BD"
+        android:textSize="29dp"
+        android:textAlignment="center"
+        android:id="@+id/txt" />
+
+    <!-- Reset button -->
+<!--    <Button-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:backgroundTint="#6EBB4D"-->
+<!--        android:layout_marginTop="36dp"-->
+<!--        android:id="@+id/clear"-->
+<!--        android:textColor="#ffffff"-->
+<!--        android:text="Reset"/>-->
+
+
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginRight="20dp"
+        android:background="#828CD8"
+        android:drawableLeft="@drawable/baseline_drive_file_rename_outline_24"
+        android:drawablePadding="20dp"
+        android:hint="Enter Firstname"
+        android:padding="15dp"
+        android:textColor="#000000"
+        android:textColorHint="#CED6CE"
+
+        />
+
+    <EditText
+        android:layout_width="300dp"
+        android:textColor="#000000"
+        android:id="@+id/ed2"
+        android:layout_marginLeft="60dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ed1"
+        android:layout_marginTop="40dp"
+        android:drawableLeft="@drawable/baseline_drive_file_rename_outline_24"
+        android:drawablePadding="20dp"
+        android:padding="15dp"
+        android:hint="Enter Lastname"
+        android:layout_marginRight="20dp"
+        android:background="#828CD8"
+        android:textColorHint="#E0E4E0"
+        />
+
+    <EditText
+        android:id="@+id/ed3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ed2"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginRight="20dp"
+        android:background="#828CD8"
+        android:drawableLeft="@drawable/baseline_person_24"
+        android:drawablePadding="20dp"
+        android:hint=" Enter Email"
+        android:padding="15dp"
+        android:textColor="#000000"
+        android:textColorHint="#C8D5C9" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_marginLeft="60dp"
+        android:id="@+id/ed4"
+        android:inputType="textPassword"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ed3"
+        android:layout_marginTop="40dp"
+        android:textColor="#000000"
+        android:drawableLeft="@drawable/baseline_fingerprint_24"
+        android:drawablePadding="20dp"
+        android:padding="15dp"
+        android:hint=" Create password"
+        android:layout_marginRight="20dp"
+        android:background="#828CD8"
+        android:textColorHint="#CCD8CC"
+        />
+
+
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_marginLeft="60dp"
+        android:id="@+id/ed5"
+        android:inputType="textPassword"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ed4"
+        android:layout_marginTop="40dp"
+        android:drawableLeft="@drawable/baseline_fingerprint_24"
+        android:drawablePadding="20dp"
+        android:textColor="#000000"
+        android:padding="15dp"
+        android:hint=" Confirm Password"
+        android:layout_marginRight="20dp"
+        android:background="#828CD8"
+        android:textColorHint="#D6DCD6"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/ed5"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="175dp"
+        android:backgroundTint="#5868BD"
+        android:text="Register"
+        android:id="@+id/btn1"
+        android:textColor="@color/white"
+        />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@+id/btn1"
+        android:text="Already have an Account ?"
+        android:textSize="20dp"
+        android:textColor="#47474E"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/ed5"
+        android:layout_marginLeft="270dp"
+        android:id="@+id/login"
+        android:textColor="@color/white"
+        android:layout_marginTop="92dp"
+        android:text="Login "
+        android:backgroundTint="#828CD8"
+
+
+
+        />
+
+
+</RelativeLayout>
